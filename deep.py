@@ -10,7 +10,7 @@ def deepEquals(a, b):
         if len(a) != len(b):
             return False
         for i in range(len(a)):
-            if not deep_equals(a[i], b[i]):
+            if not deepEquals(a[i], b[i]):
                 return False
         return True
 
